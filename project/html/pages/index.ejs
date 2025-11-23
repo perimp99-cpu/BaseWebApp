@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/js/main.js"></script>
@@ -19,14 +20,15 @@
   <div class="page-header">
 
   
-    <h1><center>My Web App</center></h1>
+    <h1  style="background-color: rgb(6, 191, 71); text-align: center;"> My Web App</h1>
   </div>
 
-  <p><center>Click on the button for a surprise.</center></p>
+  <p style = "text-align: center;">Click on the button for a surprise.</p>
 
   <center><button onclick="showPicture()" class="btn btn-dark">Click me</button></center>
+   <center><p id = "msg"></p></center>
+  <center><div id="image"></div></center>
   
-  <div id="image"></div>
   
 </body>
 
