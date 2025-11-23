@@ -1,21 +1,28 @@
 <html lang="en">
 <head>
-    <% include ../helpers/head %>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/main.js"></script>
+
+
+    <% //include ../helpers/head //%> 
+    <% include('../helpers/head') %>
+
 </head>
 
 <body>
   <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
+   
   <div class="page-header">
 
   
-    <h1>My Web App</h1>
+    <h1><center>My Web App</center></h1>
   </div>
 
-  <p>Click on the button for a surprise.</p>
+  <p><center>Click on the button for a surprise.</center></p>
 
-  <button onClick="showPicture()" class="btn btn-dark">Click me</button>
-
+  <center><button onclick="showPicture()" class="btn btn-dark">Click me</button></center>
+  
   <div id="image"></div>
   
 </body>
